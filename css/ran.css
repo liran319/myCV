@@ -1,0 +1,102 @@
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+}
+
+body>.container {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+.section {
+  padding: 0;
+  margin: 0;
+  text-align: center;
+  font: 2em "Microsoft Yahei";
+  color: #000;
+  display:block;
+}
+
+#profile {
+  border: 3px dashed red;
+  padding: 0;
+  /*margin-right: 80px;*/
+  float: right;
+  display: inline-block;
+
+}
+
+#avatar {
+  height: 200px;
+  width: 200px;
+  margin-left: 160px;
+  overflow:hidden;
+  padding:0;
+}
+
+.myinfo {
+  text-align: left;
+}
+.myinfo p {
+  font-size: 15px;
+}
+
+.cbox{
+  border: 0px solid blue;
+  color: #FFF;
+  padding: 20px 20px;
+  margin-right: 0px;
+  border-radius: 7px;
+  text-align: left;
+}
+
+.cbox p {
+  font-size: 18px;
+
+}
+.section .row h2 {
+  margin-top: 0;
+}
+
+.mytext {
+  font-family: Microsoft Yahei;
+  font-size:18px;
+  text-align: left;
+}
+/* 定义cbox颜色 */
+.green{
+  background: #2ecc71;
+}
+
+.white{
+  background: #fff;
+  color: black;
+}
+
+.black{
+  background: #000;
+}
+
+.blue {
+  background-color: #4BBFC3;
+}
+.orange{
+  background: orange;
+}
+
+.red{
+  background: #b9515f;
+}
+
+.none-list {
+  list-style: none;
+}
+
+.none-list img {
+  height:60px;
+  margin: 20px 10px 10px 10px;
+}
